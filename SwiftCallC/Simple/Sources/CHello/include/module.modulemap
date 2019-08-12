@@ -1,0 +1,5 @@
+module CHello [system] {
+    header "hello.h"
+    link "hello"
+    export *
+}
