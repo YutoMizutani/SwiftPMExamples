@@ -1,10 +1,4 @@
-#import <Foundation/NSObject.h>
-
-@interface ObjcHello : NSObject {}
-
-- (nonnull NSString *)hello;
-
-@end
+#import "include/hello.h"
 
 @implementation ObjcHello
 
