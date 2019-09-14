@@ -9,7 +9,7 @@ run:
 	gcc -o bin/main example/main.c \
 		-Llib -lhello \
 		-Iinclude \
-	chmod +x bin/* \
+		&& chmod +x bin/* \
 		&& ./bin/main
 clean:
 	rm -rf bin lib tmp
